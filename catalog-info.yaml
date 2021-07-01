@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pepito
+  description: pepito
+  annotations: 
+    github.com/project-slug: matiasurrutia/pepito
+    backstage.io/source-ref: "https://github.com/matiasurrutia/pepito"
+    backstage.io/techdocs-ref: url:https://github.com/matiasurrutia/pepito
+    backstage.io/github-actions-id: https://github.com/matiasurrutia/pepito
+spec:
+  type: service
+  lifecycle: experimental
+  owner: architecture
